@@ -1,8 +1,10 @@
+define(['nprogress', 'jquery'], function(NProgress, $) {
 
-	NProgress.start();
+    NProgress.start();
 
-	NProgress.done();
+    NProgress.done();
 
-	$('.navs ul').prev('a').on('click', function () {
-		$(this).next().slideToggle();
-	});
+    $('.navs ul').prev('a').on('click', function() {
+        $(this).next().slideToggle();
+    });
+})
