@@ -5,7 +5,8 @@ require.config({
         bootstrap: 'assets/bootstrap/js/bootstrap.min',
         nprogress: 'assets/nprogress/nprogress',
         common: 'js/common',
-        echarts: 'assets/echarts/echarts.min'
+        echarts: 'assets/echarts/echarts.min',
+        template: 'assets/artTemplate/template-web'
     },
     shim: {
         bootstrap: {
